@@ -1,0 +1,24 @@
+<footer id="footer" class="footer-wrapper">
+    <div class="footer">
+        <div class="logo">
+            <a href="{{data.site.logo.link}}">
+                <h1>{{data.site.logo.name}}</h1>
+            </a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="/#home">Home</a></li>
+                {{#each data.author.media}}
+                <li><a target="_blank" href="{{link}}">{{name}}</a></li>
+                {{/each}}
+            </ul>
+        </nav>
+        <div class="credits">
+            {{#each data.site.credit}}
+            <p>Illustrations from <a href="{{link}}" target="_blank" class="u-dotted">{{name}}</a>
+            </p>
+            {{/each}}
+            <p>{{{data.site.copyright}}}</p>
+        </div>
+    </div>
+</footer>

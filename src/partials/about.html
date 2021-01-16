@@ -1,0 +1,28 @@
+<!-- About -->
+<section id="about" class="about">
+    <h1>About</h1>
+    <section class="author-about">
+        <div class="about-summary">
+            {{{data.author.about.content}}}
+            <br>
+            <br>
+            <a href="./images/static/resume.pdf" download="Resume-Festus_Ihechi.pdf" class="btn btn-primary text-white">Download My Resume <i class="fas fa-file-download"></i></a>
+        </div>
+        <div class="about-illustration">
+            <img src="./images/static/{{data.site.illustrations.about}}" alt="About illustration">
+        </div>
+    </section>
+
+    <section class="services">
+        <h1 class="center">What I do</h1>
+        <div class="author-services">
+            {{#each data.author.services}}
+            <div class="service-card">
+                <h3>{{{icon}}} {{title}}</h3>
+                <hr>
+                <p>{{description}}</p>
+            </div>
+            {{/each}}
+        </div>
+    </section>
+</section>

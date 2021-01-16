@@ -1,0 +1,136 @@
+.home {
+  padding: 20px 50px;
+  height: 85vh;
+  max-height: 600px;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  .scroll-btn {
+    width: 20px;
+    height: 40px;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -5%);
+
+    @include themify() {
+      border: solid 1px themed("text");
+      box-shadow: 0 0 0 1px themed("text");
+    }
+
+    &::before {
+      content: "";
+      margin: auto;
+      margin-top: 20px;
+      display: block;
+      width: 3px;
+      height: 8px;
+      border-radius: 25px;
+      animation: bounce 1s infinite ease-in-out;
+
+      @include themify() {
+        background: darken(themed("text"), 20%);
+      }
+    }
+  }
+
+  .author {
+    &-name {
+      font-size: 0.9em;
+    }
+
+    &-title {
+      margin: 10px 0;
+      font-size: 1.5em;
+      letter-spacing: 1px;
+    }
+
+    &-bio {
+      margin: 20px 0;
+    }
+
+    &-accounts {
+      max-width: 580px;
+      width: 100%;
+      border-radius: 50px;
+      overflow: hidden;
+    }
+
+    &-accounts ul {
+      padding: 10px;
+      list-style-type: none;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .btn {
+        @include themify() {
+          border: solid 1px themed("border");
+        }
+      }
+    }
+
+    &-avatar {
+      margin: auto;
+      height: 300px;
+      width: 300px;
+      flex: 0 0 300px;
+      border-radius: 50%;
+      overflow: hidden;
+
+      @include themify() {
+        background: themed("primary");
+        border: solid 20px darken(themed("border"), 5%);
+        box-shadow: 0 0 0 20px themed("shadow");
+      }
+    }
+  }
+
+  .actions {
+    margin-top: 30px;
+    display: flex;
+
+    a {
+      display: block;
+      margin-right: 50px;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    grid-template-columns: 1fr;
+    height: unset;
+    max-height: unset;
+
+    .scroll-btn {
+      display: none;
+    }
+
+    .author {
+      &-title {
+        font-size: 1.5em;
+        letter-spacing: 0;
+      }
+
+      &-avatar {
+        margin: 20px auto 50px;
+        order: -1;
+      }
+    }
+  }
+
+  @media (max-width: $mobile_lc) {
+    margin-bottom: 50px;
+    padding: 20px;
+
+    .actions {
+      a {
+        margin-right: 20px;
+      }
+    }
+  }
+}

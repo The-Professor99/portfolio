@@ -1,0 +1,25 @@
+<!-- Blog -->
+<section id="blog" class="blog">
+    <h1 class="center">Blog</h1>
+    <div class="author-blogs">
+        {{#each data.author.blog}}
+        <div class="card">
+            <section class="card-image">
+                <a href="{{link}}">
+                    <img src="./images/blog/{{image}}" alt="{{title}}">
+                </a>
+            </section>
+            <section class="card-details">
+                <div class="card-title">
+                    <a href="{{link}}">
+                        <h2>{{title}}</h2>
+                    </a>
+                </div>
+                <div class="card-time">
+                    <p>{{{time}}}</p>
+                </div>
+            </section>
+        </div>
+        {{/each}}
+    </div>
+</section>

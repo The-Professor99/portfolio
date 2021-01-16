@@ -1,0 +1,52 @@
+h1 {
+  font-family: "baskerville";
+  font-weight: normal;
+  font-style: normal;
+
+  &::after {
+    content: "";
+    margin-top: 15px;
+    display: block;
+    height: 2px;
+    width: 80px;
+    border-radius: 25px;
+
+    @include themify() {
+      background: themed("text");
+    }
+  }
+
+  &.center {
+    margin: auto;
+    text-align: center;
+
+    &::after {
+      margin: auto;
+      margin-top: 15px;
+    }
+  }
+}
+
+h2,
+h3 {
+  font-family: "philosopher";
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  @include themify() {
+    color: themed("text");
+  }
+}
+
+p,
+a {
+  font-size: 0.9em;
+  line-height: 1.8em;
+}
+
+sup,
+sub {
+  font-size: 0.7em;
+}

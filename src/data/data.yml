@@ -1,0 +1,175 @@
+site:
+  title: 'Ihechi Festus'
+
+  logo:
+    name: 'ihechi'
+    link: '/'
+
+  nav:
+    - name: 'Home'
+      link: '/#home'
+
+    - name: 'About'
+      link: '/#about'
+
+    - name: 'Skills'
+      link: '/#skills'
+
+    - name: 'Projects'
+      link: '/#projects'
+
+    - name: 'Contact'
+      link: '/#contact'
+
+    - name: 'Blog'
+      link: '/#blog'
+
+  # All SVG (illustrations)
+  illustrations:
+    about: 'about_light.svg'
+    skills: 'skills_light.svg'
+
+  # Notice (If any)
+  notice: |
+    <p><strong>HEADS UP❕</strong>The blog section is still in development; no articles yet 😊</p>
+
+  # Credit in the footer
+  credit:
+    - name: 'undraw.co'
+      link: 'https://undraw.co/illustrations'
+
+  copyright: '&copy;2019 &dash; 2020 Designed & Built By Emmanuel Karanja'
+
+# About author
+author:
+  name: 'Ihechi Festus'
+  image: 'author.jpg'
+  title: 'Front end developer'
+  bio: 'Front End Web Developer with very good research skills.'
+  about:
+    image: 'about.svg'
+    content: |
+      <p>Angular developer constantly seeking to better his skills as well as leverage them to create greate products with good user experience.</p>
+      <p>Comfortable with tools such as Figma and Notion.</p>
+      <p>Final Year Student of Electrical and Electronics Engineering. I am also a Machine Learning Enthusiast. My hobbies would include Reading/Writing, Making Researches over topics that interest me and Playing video games.</p>
+      <p>An Active team player</p>
+
+  # Contact details
+  location: 'Jos Nigeria'
+  contact:
+    mobile: '+234 813 277 0015'
+    emails:
+      primary: 'ihechifestus999@gmail.com'
+      work: 'festusihechi99@gmail.com'
+    icons:
+      location: |
+        <i class="fas fa-map-marker-alt"></i>
+      mail: |
+        <i class="fas fa-envelope"></i>
+      phone: |
+        <i class="fas fa-phone"></i>
+
+  # Relevant forums
+  forums:
+    - name: 'Pluralsight'
+      link: 'https://app.pluralsight.com/profile/ihechi-festus'
+      icon: |
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.319329 97.318793">
+          <g transform="matrix(1.3333333,0,0,-1.3333333,0,97.318796)">
+            <g transform="translate(-90.5055,-40.437901)">
+              <path fill="currentColor" d="M 117.67,95.7902 V 58.0746 l 32.662,18.8578 z m 3.126,-5.4148 23.284,-13.443 -23.284,-13.4426 v 26.8856"></path>
+              <path fill="currentColor" d="M 110.161,91.673 V 62.1922 l 25.53,14.741 z m 3.127,-5.4152 16.151,-9.325 -16.151,-9.3258 v 18.6508"></path>
+            </g>
+          </g>
+        </svg>
+
+    - name: 'LinkedIn'
+      link: 'https://www.linkedin.com/in/ihechi-festus-5b5121190/'
+      icon: |
+        <i class="fab fa-linkedin"></i>
+
+    - name: 'Github'
+      link: 'https://github.com/The-Professor99'
+      icon: |
+        <i class="fab fa-github"></i>
+
+  # One free lance forum (To work as a call to action in the home section)
+  freelance:
+    name: 'Fiverr'
+    link: 'https://www.fiverr.com/festusihechi'
+
+  # Services offered
+  services:
+    - title: 'Front End Web development'
+      description: >
+        Implementing custom designs from static websites 
+        to fully fledged web-apps.
+      icon: |
+        <i class="fas fa-code"></i>
+    - title: 'Content Writing and Research'
+      description: >
+        Carefully researches topics to enable me write quality content that is as good as engaging.
+      icon: |
+        <i class="far fa-edit"></i>
+    - title: 'Machine Learning'
+      description: >
+        In my free time, I learn/build Machine Learning Models for fun.
+      icon: |
+        <i class="fas fa-laptop-code"></i>
+
+  # All social media handles (Displayed in the footer)
+  media:
+    - name: 'Twitter'
+      link: 'https://twitter.com/FestusIhechi'
+
+  # Skills section
+  skills:
+    - category: 'Front-end'
+      set: 'HTML, CSS(SASS), JS/TypeScript'
+    - category: 'Front End Frameworks'
+      set: 'Angular, Tailwindcss, Bootstrap'
+    - category: 'Machine Learning'
+      set: 'Python'
+    - category: 'Others'
+      set: 'Bash/Linux'
+    - category: 'Currently Learning'
+      set: 'UI/UX Design'
+
+  # Projects section
+  projects:
+    - title: 'Unique Help Website'
+      image: 'unique_help.png'
+      languages: 'TypeScript - Angular, CSS - Tailwindcss'
+      description: |
+        Built the front end of the website for Unique Help Global Concept, A world class and people oriented investment company aimed at bridging the financial gap between the upper and lower class.
+      link: 'https://www.uniquehelp247.com'
+    - title: 'Music Downloader'
+      image: 'music_downloader.png'
+      languages: 'Python'
+      description: |
+        Music Downloader is a music scrapper that scraps off new songs of your favourite musicians from websites as soon as the song drops on their platform.
+      link: 'https://github.com/The-Professor99/Music_Downloader'
+    - title: 'Weather App'
+      image: 'weather_app.png'
+      languages: 'HTML, CSS, JS, Firebase'
+      description: |
+        A PWA project I worked on while in the Google Africa
+        Developer Scholarship 2020 (GADS2020) Program. It serves to return weather data in real time.
+      link: 'https://weather-app-bd081.web.app/'
+
+  # Blog section
+  blog:
+    - title: 'Amazing article from me to you'
+      image: 'blog1.jpg'
+      time: '2nd &middot; March &middot; 2021'
+      link: '/blog'
+
+    - title: 'Amazing article from me to you'
+      image: 'blog2.jpg'
+      time: '2nd &middot; March &middot; 2021'
+      link: '/blog'
+
+    - title: 'Amazing article from me to you'
+      image: 'blog3.jpg'
+      time: '2nd &middot; March &middot; 2021'
+      link: '/blog'

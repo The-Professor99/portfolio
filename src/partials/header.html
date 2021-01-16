@@ -1,0 +1,28 @@
+<header id="header" class="header-wrapper">
+    <header class="header">
+        <div class="logo">
+            <a href="{{data.site.logo.link}}">
+                <h1>{{data.site.logo.name}}</h1>
+            </a>
+        </div>
+        <nav class="nav main-menu">
+            <menu class="menu">
+                <ul>
+                    {{#each data.site.nav}}
+                    <li><a href="{{link}}">{{name}}</a></li>
+                    {{/each}}
+                </ul>
+            </menu>
+            <div class="mode-ctrl">
+                <label for="themeToggle">Dark mode</label>
+                <input type="checkbox" name="mode" id="themeToggle" class="theme-toggle">
+                <label for="themeToggle" class="theme-toggle-label"></label>
+            </div>
+        </nav>
+        <div class="menu-toggle bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+</header>

@@ -1,27 +1,30 @@
-# MyPortfolio
+<div align="center">
+  <img src="src/lib/images/icons/filled/favicon.ico" alt="Logo">
+  <h1>ekaranja</h1>
+  <a href="https://app.netlify.com/sites/ekaranja/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/c3b50e42-340c-4a00-9454-cdb0cd7a2e10/deploy-status" alt="Netlify status">
+  </a>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+![Screenshot](src/lib/screenshots/portfolio.png)
 
-## Development server
+# Set up
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Install all the `npm` dependencies
+`npm install`
 
-## Code scaffolding
+## Gulp commands
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+> Make sure you have `gulp cli` installed globally `npm i -g gulp-cli`
 
-## Build
+| Comand          | Action                                                           |
+| --------------- | ---------------------------------------------------------------- |
+| `gulp pages`    | Generates all pages based on `gulp-panini` package               |
+| `gulp style`    | Compiles all your `scss` files to `css` and minifies them        |
+| `gulp js`       | Compiles all your `es6` code to `es5` and minifies it            |
+| `gulp minimage` | Minifies all images in the `/src/lib/images` directory           |
+| `gulp watch`    | Watches for all the above in `/public` directory and hot reloads |
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+> _PS: The `/src/data/data.yml` is your single source of truth_
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p align="center">Made with 💛 by Me</p>

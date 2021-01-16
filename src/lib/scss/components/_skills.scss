@@ -1,0 +1,45 @@
+.skills {
+  .author {
+    &-skills {
+      display: flex;
+      flex-flow: row wrap;
+
+      ul {
+        list-style-type: none;
+      }
+
+      .set {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &-illustration {
+    margin: auto;
+    max-width: 400px;
+  }
+
+  @media (max-width: $tablet) {
+    .author {
+      &-skills {
+        flex-direction: column;
+      }
+    }
+
+    &-illustration {
+      margin: 20px auto;
+      order: -1;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: $mobile) {
+    ul {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

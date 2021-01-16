@@ -1,0 +1,23 @@
+<!-- Projects -->
+<section id="projects" class="projects">
+    <h1 class="center">Projects</h1>
+    <div class="author-projects">
+        {{#each data.author.projects}}
+        <div class="project" class="border-blue-200 rounded">
+            <img src="./images/projects/{{image}}" alt="{{title}}">
+            <div class="project-summary">
+                <div class="title">
+                    <h3>{{title}}</h3>
+                    <h5>{{languages}}</h5>
+                </div>
+                <div class="description">
+                    <p>{{{description}}}</p>
+                </div>
+                <div class="action">
+                    <a href="{{link}}" target="_blank"><button class="btn btn-secondary btn--rounded">View</button></a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</section>

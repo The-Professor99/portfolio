@@ -1,0 +1,11 @@
+.notice {
+  margin: 20px auto;
+  padding: 20px;
+
+  @include themify {
+    color: themed("body");
+    background: themed("primary");
+    border: solid 1px themed("border");
+    text-align: center;
+  }
+}

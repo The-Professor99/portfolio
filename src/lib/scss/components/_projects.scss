@@ -1,0 +1,121 @@
+.projects {
+  .author {
+    &-projects {
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: repeat(3, 1fr);
+
+      .project {
+        margin: 30px;
+        position: relative;
+        height: 250px;
+        border-radius: 15px;
+        overflow: hidden;
+
+        img {
+          height: 100%;
+          transition: all 0.3s ease-in-out;
+        }
+
+        .btn {
+          pointer-events: none;
+        }
+
+        &:hover {
+          img {
+            transform: scale(1.1);
+          }
+
+          .btn {
+            pointer-events: initial;
+          }
+
+          .project-summary {
+            opacity: 1;
+            visibility: 1;
+            transform: scale(1);
+          }
+        }
+
+        &-summary {
+          padding: 20px;
+          position: absolute;
+          top: 0%;
+          bottom: 0%;
+          left: 0%;
+          right: 0%;
+
+          text-align: center;
+          color: #fff;
+
+          opacity: 0;
+          visibility: 0;
+          transform: scale(1.1);
+          transition: all 0.3s ease-in-out;
+
+          @include themify() {
+            background: transparentize(themed("primary"), 0.2);
+          }
+
+          &:hover {
+            .title,
+            .description,
+            .action {
+              opacity: 1;
+            }
+
+            .title,
+            .action {
+              transform: translateY(0);
+            }
+          }
+
+          .title,
+          .description,
+          .action {
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            transition-delay: 0.2s ease-in-out;
+          }
+
+          .title {
+            font-family: "philosopher";
+            font-weight: bold;
+            line-height: 1.5em;
+            transform: translateY(-20px);
+          }
+
+          .description {
+            margin: 15px 0;
+            font-size: 0.85em;
+            line-height: 1.5em;
+          }
+
+          .action {
+            transform: translateY(20px);
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: $tablet) {
+    .author {
+      &-projects {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    .author {
+      &-projects {
+        display: block;
+
+        .project {
+          margin: 30px auto;
+        }
+      }
+    }
+  }
+}

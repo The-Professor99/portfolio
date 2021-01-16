@@ -1,0 +1,61 @@
+.contact {
+  .author {
+    &-contact {
+      display: grid;
+      grid-template-columns: 400px 1fr;
+      align-items: center;
+    }
+
+    &-contact-form {
+      .btn {
+        margin-top: 30px;
+      }
+    }
+
+    &-contact-links {
+      margin: auto;
+
+      .contact-card {
+        margin: 20px 0;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+
+        .icon {
+          margin-right: 20px;
+          height: 60px;
+          width: 60px;
+          flex: 0 0 60px;
+
+          font-size: 1.3em;
+
+          display: grid;
+          place-items: center;
+          border-radius: 50%;
+
+          @include themify() {
+            color: themed("primary");
+            border: solid 1px themed("primary");
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: $tablet) {
+    .author {
+      &-contact {
+        grid-template-columns: 1fr;
+      }
+
+      &-contact-form,
+      &-contact-links {
+        width: 100%;
+      }
+
+      &-contact-links {
+        order: -1;
+      }
+    }
+  }
+}

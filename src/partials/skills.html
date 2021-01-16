@@ -1,0 +1,17 @@
+<!-- Skills -->
+<section id="skills" class="skills">
+    <h1>Skills</h1>
+    <section class="author-skills">
+        <ul>
+            {{#each data.author.skills}}
+            <li class="set">
+                <h3>{{category}}</h3>
+                <p>{{set}}</p>
+            </li>
+            {{/each}}
+        </ul>
+        <section class="skills-illustration">
+            <img src="./images/static/{{data.site.illustrations.skills}}" alt="Skills illustration">
+        </section>
+    </section>
+</section>

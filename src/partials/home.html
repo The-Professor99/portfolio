@@ -1,0 +1,28 @@
+<section id="home" class="home">
+    <div class="author-details">
+        <section class="author-name">
+            <h3>{{data.author.name}}</h3>
+        </section>
+        <section class="author-title">
+            <h1>{{data.author.title}}</h1>
+        </section>
+        <section class="author-bio">
+            <p>{{data.author.bio}}</p>
+        </section>
+        <section class="author-accounts">
+            <ul>
+                {{#each data.author.forums}}
+                <li><a class="btn btn-icon--bg btn-icon--circle" href="{{link}}" target="_blank"
+                        title="{{name}}">{{{icon}}}</a></li>
+                {{/each}}
+            </ul>
+        </section>
+        <section class="actions">
+            <a href="#contact"><button class="btn btn-primary btn--rounded">Get in touch</button></a>
+        </section>
+    </div>
+    <section class="author-avatar">
+        <img src="./images/static/{{data.author.image}}" alt="{{data.author.name}}">
+    </section>
+    <a href="#about" class="scroll-btn"></a>
+</section>

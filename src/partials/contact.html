@@ -1,0 +1,65 @@
+<!-- Contact -->
+<section id="contact" class="contact">
+    <h1>Hello 👋</h1>
+    <div class="author-contact">
+        <div class="author-contact-form">
+            <span>Let's connect...</span>
+            <form id="contactForm" action="/success" method="POST" netlify name="contact">
+                <div class="input-wrapper--outer">
+                    <div class="input-wrapper--inner-dent">
+                        <input type="text" name="firstname" class="input" placeholder="First name" required>
+                    </div>
+                    <div class="input-wrapper--inner">
+                        <input type="text" name="lastname" class="input" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="input-wrapper--inner">
+                    <input type="text" class="input" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-wrapper--inner">
+                    <textarea name="message" class="input" cols="30" rows="10" placeholder="Message"
+                        required></textarea>
+                </div>
+                <!-- <div class="input-wrapper--inner">
+                    <div data-netlify-recaptcha="true"></div>
+                </div> -->
+                <button type="submit" class="btn btn-primary btn--rounded btn--half-fit">Send
+                    message</button>
+            </form>
+        </div>
+        <div class="author-contact-links">
+            <div class="contact-card">
+                <div class="icon">
+                    {{{data.author.contact.icons.location}}}
+                </div>
+                <div class="link">
+                    <p>{{data.author.location}}</p>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="icon">
+                    {{{data.author.contact.icons.mail}}}
+                </div>
+                <div class="link">
+                    <p>
+                        <a
+                            href="mailto:{{data.author.contact.emails.primary}}">{{data.author.contact.emails.primary}}</a>
+                        <br>
+                        <a href="mailto:{{data.author.contact.emails.work}}">{{data.author.contact.emails.work}}</a>
+                    </p>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="icon">
+                    {{{data.author.contact.icons.phone}}}
+                </div>
+                <div class="link">
+                    <p><a href="tel:{{data.author.contact.mobile}}">{{data.author.contact.mobile}}</a></p>
+                </div>
+            </div>
+            <div class="contact-card">
+          <a href="https://twitter.com/FestusIhechi?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @FestusIhechi</a>
+            </div>
+        </div>
+    </div>
+</section>

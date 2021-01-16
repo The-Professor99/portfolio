@@ -1,0 +1,63 @@
+// Breakpoints
+$mobile: 500px;
+$mobile_lc: 600px;
+$tablet: 850px;
+$tablet-lc: 1200px;
+$laptop: 1440px;
+$desktop: 1880px;
+
+$max-width: 1400px;
+
+// Theme colors
+$themes: (
+  light: (
+    body: #fff,
+    primary: #0077ff,
+    secondary: #3f3d56,
+    danger: #f44336,
+    text: #707070,
+    el-bg: #fff,
+    border: #ddd,
+    shadow: #ddd,
+    footer: #ddd,
+  ),
+  dark: (
+    body: #111,
+    primary: #e91e63,
+    secondary: #880e4f,
+    danger: #b71c1c,
+    text: #eeeeee,
+    el-bg: #323232,
+    border: #222,
+    shadow: #222,
+    footer: #222,
+  ),
+);
+
+// Detect user mobile settings
+@media (prefers-color-scheme: dark) {
+  $themes: (
+    light: (
+      body: #111,
+      primary: #e91e63,
+      secondary: #880e4f,
+      danger: #b71c1c,
+      text: #eeeeee,
+      el-bg: #323232,
+      border: #222,
+      shadow: #222,
+      footer: #222,
+    ),
+    dark: (
+      body: #111,
+      primary: #e91e63,
+      secondary: #880e4f,
+      danger: #b71c1c,
+      text: #eeeeee,
+      el-bg: #323232,
+      border: #222,
+      shadow: #222,
+      footer: #222,
+    ),
+  );
+}

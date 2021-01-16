@@ -1,0 +1,112 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html.transition,
+html.transition *,
+html.transition *::before,
+html.transition *::after {
+  transition: background 0.3s, color 0s;
+}
+
+body {
+  font-family: "montserrat";
+
+  @include themify() {
+    color: themed("text");
+    background: themed("body");
+  }
+}
+
+.logo {
+  h1 {
+    font-family: "gabriola" !important;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+
+    &::after {
+      display: none !important;
+    }
+  }
+
+  a {
+    font-size: 1.25em;
+    text-decoration: none;
+
+    @include themify() {
+      color: themed("primary") !important;
+    }
+  }
+}
+
+.content {
+  margin: auto;
+  margin-top: 70px;
+  max-width: $max-width;
+  overflow: hidden;
+
+  .about,
+  .skills,
+  .projects,
+  .contact,
+  .blog {
+    margin: auto;
+    padding: 30px 50px;
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: $tablet) {
+      padding: 20px 40px;
+    }
+
+    @media (max-width: $mobile) {
+      padding: 20px;
+    }
+  }
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+hr {
+  margin: 10px 0 15px 0;
+
+  @include themify() {
+    border-top: solid 1px themed("border");
+  }
+}
+
+.border {
+  @include themify() {
+    border: solid 1px themed("border");
+  }
+}
+
+.shadow {
+  @include themify() {
+    box-shadow: 0 2px 10px -10px themed("shadow");
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
