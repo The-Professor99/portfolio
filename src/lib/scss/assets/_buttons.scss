@@ -93,6 +93,11 @@
     border-radius: 25px;
   }
 
+  // white text on button
+  &--text-white {
+      @extend .btn;
+      color: white !important;
+  }
   // edgy button
   &--edgy {
     @extend .btn;
