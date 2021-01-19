@@ -1,0 +1,70 @@
+[debug] [2021-01-18T23:32:34.209Z] ----------------------------------------------------------------------
+[debug] [2021-01-18T23:32:34.211Z] Command:       /usr/local/bin/firebase /home/ihechi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy --debug
+[debug] [2021-01-18T23:32:34.211Z] CLI Version:   8.10.0
+[debug] [2021-01-18T23:32:34.211Z] Platform:      linux
+[debug] [2021-01-18T23:32:34.211Z] Node Version:  v12.18.1
+[debug] [2021-01-18T23:32:34.309Z] Time:          Tue Jan 19 2021 00:32:34 GMT+0100 (West Africa Standard Time)
+[debug] [2021-01-18T23:32:34.310Z] ----------------------------------------------------------------------
+[debug] [2021-01-18T23:32:34.310Z] 
+[debug] [2021-01-18T23:32:34.345Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-18T23:32:34.346Z] > authorizing via signed-in user
+[debug] [2021-01-18T23:32:34.346Z] [iam] checking project ihechifestus9 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-18T23:32:34.350Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ihechifestus9:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-18T23:32:36.564Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 Jan 2021 23:32:36 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1103","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-18T23:32:36.568Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ihechifestus9  
+ 
+[debug] [2021-01-18T23:32:37.726Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 Jan 2021 23:32:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-18T23:32:37.728Z] [WARNING] Unable to fetch default resources. Falling back to project id (ihechifestus9)
+[info] 
+[info] === Deploying to 'ihechifestus9'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-01-18T23:32:37.736Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ihechifestus9/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-01-18T23:32:40.387Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 Jan 2021 23:32:40 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[ihechifestus9]: beginning deploy... 
+[info] i  hosting[ihechifestus9]: found 54 files in public 
+[debug] [2021-01-18T23:32:40.486Z] [hosting] hash cache [cHVibGlj] stored for 54 files
+[debug] [2021-01-18T23:32:40.487Z] [hosting][hash queue][FINAL] {"max":2,"min":0,"avg":0.018476908520530282,"active":0,"complete":54,"success":54,"errored":0,"retried":0,"total":54,"elapsed":4}
+[debug] [2021-01-18T23:32:40.487Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ihechifestus9/versions/8b5a85af9a6caa8e:populateFiles  
+ <request body omitted>
+[info] i  hosting: adding files to version [0/54] (0%) 
+[debug] [2021-01-18T23:32:42.797Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 Jan 2021 23:32:42 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-18T23:32:42.798Z] [hosting][populate queue][FINAL] {"max":2312,"min":2312,"avg":2312,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2312}
+[debug] [2021-01-18T23:32:42.799Z] [hosting] uploads queued: 0
+[debug] [2021-01-18T23:32:42.799Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1611012762799}
+[info] ✔  hosting[ihechifestus9]: file upload complete 
+[debug] [2021-01-18T23:32:42.801Z] [hosting] deploy completed after 2413ms
+[debug] [2021-01-18T23:32:43.676Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "ihechifestus9"
+    },
+    "site": "ihechifestus9",
+    "version": "sites/ihechifestus9/versions/8b5a85af9a6caa8e"
+  }
+]
+[info] i  hosting[ihechifestus9]: finalizing version... 
+[debug] [2021-01-18T23:32:43.678Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/ihechifestus9/versions/8b5a85af9a6caa8e?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2021-01-18T23:32:45.917Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 Jan 2021 23:32:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-18T23:32:45.918Z] [hosting] finalized version for ihechifestus9: {"name":"sites/ihechifestus9/versions/8b5a85af9a6caa8e","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-01-18T23:32:39.629009Z","createUser":{"email":"festusihechi99@gmail.com"},"finalizeTime":"2021-01-18T23:32:45.475513Z","finalizeUser":{"email":"festusihechi99@gmail.com"}}
+[info] ✔  hosting[ihechifestus9]: version finalized 
+[info] i  hosting[ihechifestus9]: releasing new version... 
+[debug] [2021-01-18T23:32:45.920Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ihechifestus9/releases?version_name=sites/ihechifestus9/versions/8b5a85af9a6caa8e  
+ {"message":null}
+[debug] [2021-01-18T23:32:47.965Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 Jan 2021 23:32:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-18T23:32:47.966Z] [hosting] release: {"name":"sites/ihechifestus9/releases/1611012767034047","version":{"name":"sites/ihechifestus9/versions/8b5a85af9a6caa8e","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-01-18T23:32:39.629009Z","createUser":{"email":"festusihechi99@gmail.com"},"finalizeTime":"2021-01-18T23:32:45.475513Z","finalizeUser":{"email":"festusihechi99@gmail.com"},"preview":{}},"type":"DEPLOY","releaseTime":"2021-01-18T23:32:47.034047033Z","releaseUser":{"email":"festusihechi99@gmail.com"}}
+[info] ✔  hosting[ihechifestus9]: release complete 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/ihechifestus9/overview
+[info] Hosting URL: https://ihechifestus9.web.app

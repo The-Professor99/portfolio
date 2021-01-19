@@ -1,0 +1,2 @@
+function gtag(){dataLayer.push(arguments)}!function(t,e,a,n,g){t[n]=t[n]||[],t[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var r=e.getElementsByTagName(a)[0],o=e.createElement(a);o.async=!0,o.src="https://www.googletagmanager.com/gtm.js?id=GTM-NHVLJWL",r.parentNode.insertBefore(o,r)}(window,document,"script","dataLayer"),window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-155390144-1");
+//# sourceMappingURL=../sourcmaps/js/analytics.js.map
