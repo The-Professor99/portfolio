@@ -8,7 +8,7 @@ const assets = [
   '/images/icons/filled/android-chrome-512x512.png',
   '/images/icons/white/android-chrome-512x512.png',
 
-  '/images/static/author.png',
+  '/images/static/author.jpg',
   '/images/static/about.svg',
   '/images/static/skills.svg',
   '/images/static/resume.pdf',
