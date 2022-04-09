@@ -1,77 +1,15 @@
 {
-  "hosting":{
-    "cleanUrls": false,
-    "public":"public",
-    "ignore":[
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "headers":[
+    "rewrites": [
       {
-        "source":"**/*.@(eot|otf|ttf|ttc|woff|font.css)",
-        "headers":[
-          {
-            "key":"Access-Control-Allow-Origin",
-            "value":"*"
-          }
-        ]
-      },
-      {
-        "source":"*/.@(html)",
-        "headers":[
-          {
-            "key":"Access-Control-Allow-Origin",
-            "value":"*"
-          }
-        ]
-      },
-      {
-        "source":"*",
-        "headers":[
-          {
-            "key":"Access-Control-Allow-Origin",
-            "value":"*"
-          },
-          {
-            "key":"Access-Control-Allow-Credentials",
-            "value":"true"
-          },
-          {
-            "key":"Access-Control-Allow-Methods",
-            "value":"GET"
-          },
-          {
-            "key":"Access-Control-Allow-Headers",
-            "value":"Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers"
-          }
-        ]
-      },
-      {
-        "source":"**/*.@(jpg|jpeg|gif|png)",
-        "headers":[
-          {
-            "key":"Cache-Control",
-            "value":"max-age=7200"
-          }
-        ]
-      },
-      {
-        "regex":".+/\\w+\\.(jpg|jpeg|gif|png)$",
-        "headers":[
-          {
-            "key":"Cache-Control",
-            "value":"max-age=7200"
-          }
-        ]
-      },
-      {
-        "source":"404.html",
-        "headers":[
-          {
-            "key":"Cache-Control",
-            "value":"max-age=300"
-          }
-        ]
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   }
