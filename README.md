@@ -23,8 +23,11 @@ Install all the `npm` dependencies
 | `gulp style`    | Compiles all your `scss` files to `css` and minifies them        |
 | `gulp js`       | Compiles all your `es6` code to `es5` and minifies it            |
 | `gulp minimage` | Minifies all images in the `/src/lib/images` directory           |
+| `gulp minifile` | Compiles all files in the `/src` directory                       |
+| `gulp hashify`  | Adds hashes to js and css files for cache purposes               |
+| `gulp hashify2` | Adds hashes to js and css files for cache purposes               |
 | `gulp watch`    | Watches for all the above in `/public` directory and hot reloads |
 
 > _PS: The `/src/data/data.yml` is your single source of truth_
 
-<p align="center">Made with 💛 by Me</p>
+<p align="center">Made with 💛 by Me, using node v14, gulp v4.14</p>

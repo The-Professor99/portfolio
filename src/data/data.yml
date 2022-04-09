@@ -38,7 +38,7 @@ site:
     - name: 'undraw.co'
       link: 'https://undraw.co/illustrations'
 
-  copyright: '&copy;2019 &dash; 2020 Designed & Built By Emmanuel Karanja'
+  copyright: '&copy;2019 &dash; 2022 Designed & Built By Emmanuel Karanja, Modified by Ihechi Festus'
 
 # About author
 author:
@@ -49,9 +49,9 @@ author:
   about:
     image: 'about.svg'
     content: |
-      <p>Angular developer constantly seeking to better his skills as well as leverage them to create great products with good user experience.</p>
+      <p>Front End Web Developer constantly seeking to better his skills as well as leverage them to create great products with good user experience.</p>
       <p>Comfortable with tools such as Figma and Notion.</p>
-      <p>Final Year Student of Electrical and Electronics Engineering. I am also a Machine Learning Enthusiast. My hobbies would include Reading/Writing, Making Researches over topics that interest me and Playing video games.</p>
+      <p>Graduate Student of Electrical and Electronics Engineering. I am also a Machine Learning Enthusiast. My hobbies would include Reading/Writing, Making Researches over topics that interest me and Playing video games.</p>
       <p>An Active team player</p>
 
   # Contact details
@@ -127,22 +127,28 @@ author:
     - category: 'Front-end'
       set: 'HTML, CSS(SASS), JS/TypeScript'
     - category: 'Front End Frameworks'
-      set: 'Angular, Tailwindcss, Bootstrap'
+      set: 'Angular, React, Tailwindcss, Bootstrap'
     - category: 'Machine Learning'
       set: 'Python'
     - category: 'Others'
-      set: 'Bash/Linux'
+      set: 'Bash/Linux, Git and GitHub'
     - category: 'Currently Learning'
-      set: 'UI/UX Design'
+      set: 'UI/UX Design, Agile Methodologies, Test Driven Development, Data Structures and Algorithms'
 
   # Projects section
   projects:
+    - title: 'Ecommerce Practice'
+      image: 'ecommerce_practice.png'
+      languages: 'JavaScript - React, CSS - Bootstrap'
+      description: |
+        Built this practice website as a test practice to learning the React framework, It's still a work in progress as some features are yet to be added and some modifications made to the design. You can check more about this project on my github repo.
+      link: 'http://ecommerce-practice-99.netlify.app/'
     - title: 'Unique Help Website'
       image: 'unique_help.png'
       languages: 'TypeScript - Angular, CSS - Tailwindcss'
       description: |
         Built the front end of the website for Unique Help Global Concept, A world class and people oriented investment company aimed at bridging the financial gap between the upper and lower class.
-      link: 'https://www.uniquehelp247.com'
+      link: 'http://www.uniquehelp247.com'
     - title: 'Music Downloader'
       image: 'music_downloader.png'
       languages: 'Python'
