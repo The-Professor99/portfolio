@@ -1,33 +1,33 @@
 site:
-  title: 'Ihechi Festus'
+  title: "Ihechi Festus"
 
   logo:
-    name: 'ihechi'
-    link: '/'
+    name: "ihechi"
+    link: "/"
 
   nav:
-    - name: 'Home'
-      link: '/#home'
+    - name: "Home"
+      link: "/#home"
 
-    - name: 'About'
-      link: '/#about'
+    - name: "About"
+      link: "/#about"
 
-    - name: 'Skills'
-      link: '/#skills'
+    - name: "Skills"
+      link: "/#skills"
 
-    - name: 'Projects'
-      link: '/#projects'
+    - name: "Projects"
+      link: "/#projects"
 
-    - name: 'Contact'
-      link: '/#contact'
+    - name: "Contact"
+      link: "/#contact"
 
-    - name: 'Blog'
-      link: '/#blog'
+    - name: "Blog"
+      link: "/#blog"
 
   # All SVG (illustrations)
   illustrations:
-    about: 'about_light.svg'
-    skills: 'skills_light.svg'
+    about: "about_light.svg"
+    skills: "skills_light.svg"
 
   # Notice (If any)
   notice: |
@@ -35,19 +35,19 @@ site:
 
   # Credit in the footer
   credit:
-    - name: 'undraw.co'
-      link: 'https://undraw.co/illustrations'
+    - name: "undraw.co"
+      link: "https://undraw.co/illustrations"
 
-  copyright: '&copy;2019 &dash; 2022 Designed & Built By Emmanuel Karanja, Modified by Ihechi Festus'
+  copyright: "&copy;2019 &dash; 2022 Designed & Built By Emmanuel Karanja, Modified by Ihechi Festus"
 
 # About author
 author:
-  name: 'Ihechi Festus'
-  image: 'author.jpg'
-  title: 'Front end developer'
-  bio: 'Front End Web Developer with very good research skills.'
+  name: "Ihechi Festus"
+  image: "author.jpg"
+  title: "Front end developer"
+  bio: "Front End Web Developer with very good research skills."
   about:
-    image: 'about.svg'
+    image: "about.svg"
     content: |
       <p>Front End Web Developer constantly seeking to better his skills as well as leverage them to create great products with good user experience.</p>
       <p>Comfortable with tools such as Figma and Notion.</p>
@@ -55,12 +55,12 @@ author:
       <p>An Active team player</p>
 
   # Contact details
-  location: 'Jos Nigeria'
+  location: "Jos Nigeria"
   contact:
-    mobile: '+234 813 277 0015'
+    mobile: "+234 813 277 0015"
     emails:
-      primary: 'ihechifestus999@gmail.com'
-      work: 'festusihechi99@gmail.com'
+      primary: "ihechifestus999@gmail.com"
+      work: "festusihechi99@gmail.com"
     icons:
       location: |
         <i class="fas fa-map-marker-alt"></i>
@@ -71,8 +71,8 @@ author:
 
   # Relevant forums
   forums:
-    - name: 'Pluralsight'
-      link: 'https://app.pluralsight.com/profile/ihechi-festus'
+    - name: "Pluralsight"
+      link: "https://app.pluralsight.com/profile/ihechi-festus"
       icon: |
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.319329 97.318793">
           <g transform="matrix(1.3333333,0,0,-1.3333333,0,97.318796)">
@@ -83,35 +83,35 @@ author:
           </g>
         </svg>
 
-    - name: 'LinkedIn'
-      link: 'https://www.linkedin.com/in/ihechi-festus-5b5121190/'
+    - name: "LinkedIn"
+      link: "https://www.linkedin.com/in/ihechi-festus/"
       icon: |
         <i class="fab fa-linkedin"></i>
 
-    - name: 'Github'
-      link: 'https://github.com/The-Professor99'
+    - name: "Github"
+      link: "https://github.com/The-Professor99"
       icon: |
         <i class="fab fa-github"></i>
 
   # One free lance forum (To work as a call to action in the home section)
   freelance:
-    name: 'Fiverr'
-    link: 'https://www.fiverr.com/festusihechi'
+    name: "Fiverr"
+    link: "https://www.fiverr.com/festusihechi"
 
   # Services offered
   services:
-    - title: 'Front End Web development'
+    - title: "Front End Web development"
       description: >
         Implementing custom designs from static websites 
         to fully fledged web-apps.
       icon: |
         <i class="fas fa-code"></i>
-    - title: 'Content Writing and Research'
+    - title: "Content Writing, Research and Blockchain"
       description: >
-        Carefully researches topics to enable me write quality content that is as good as engaging.
+        Carefully researches topics to enable me write quality content that is as good as engaging. I also tend to make researches on things relating to Blockchain and Cryptocurrencies.
       icon: |
         <i class="far fa-edit"></i>
-    - title: 'Machine Learning'
+    - title: "Machine Learning"
       description: >
         In my free time, I learn/build Machine Learning Models for fun.
       icon: |
@@ -119,63 +119,67 @@ author:
 
   # All social media handles (Displayed in the footer)
   media:
-    - name: 'Twitter'
-      link: 'https://twitter.com/FestusIhechi'
+    - name: "Twitter"
+      link: "https://twitter.com/FestusIhechi"
 
   # Skills section
   skills:
-    - category: 'Front-end'
-      set: 'HTML, CSS(SASS), JS/TypeScript'
-    - category: 'Front End Frameworks'
-      set: 'Angular, React, Tailwindcss, Bootstrap'
-    - category: 'Machine Learning'
-      set: 'Python'
-    - category: 'Others'
-      set: 'Bash/Linux, Git and GitHub'
-    - category: 'Currently Learning'
-      set: 'UI/UX Design, Agile Methodologies, Test Driven Development, Data Structures and Algorithms'
+    - category: "Front-end"
+      set: "HTML, CSS(SASS), JS/TypeScript"
+    - category: "Front End Frameworks"
+      set: "Angular, React/Redux, Tailwindcss, Bootstrap, MaterialUI"
+    - category: "Machine Learning"
+      set: "Python"
+    - category: "Testing"
+      set: "Jest, React Testing Library, Cypress, Cucumber"
+    - category: "Others"
+      set: "Bash/Linux, Git and GitHub, Test Driven Development, Kanban"
+    - category: "Currently Learning"
+      set: "UI/UX Design, Agile Methodologies, Data Structures and Algorithms"
+    - category: ""
+      set: "*Other skills are included in the Resume"
 
   # Projects section
   projects:
-    - title: 'Ecommerce Practice'
-      image: 'ecommerce_practice.png'
-      languages: 'JavaScript - React, CSS - Bootstrap'
+    - title: "Ecommerce Practice"
+      image: "ecommerce_practice.png"
+      languages: "JavaScript - React, CSS - Bootstrap"
       description: |
         Built this practice website as a test practice to learning the React framework, It's still a work in progress as some features are yet to be added and some modifications made to the design. You can check more about this project on my github repo.
-      link: 'http://ecommerce-practice-99.netlify.app/'
-    - title: 'Unique Help Website'
-      image: 'unique_help.png'
-      languages: 'TypeScript - Angular, CSS - Tailwindcss'
+      link: "http://ecommerce-practice-99.netlify.app/"
+    - title: "Unique Help Website"
+      image: "unique_help.png"
+      languages: "TypeScript - Angular, CSS - Tailwindcss"
       description: |
         Built the front end of the website for Unique Help Global Concept, A world class and people oriented investment company aimed at bridging the financial gap between the upper and lower class.
-      link: 'http://www.uniquehelp247.com'
-    - title: 'Music Downloader'
-      image: 'music_downloader.png'
-      languages: 'Python'
+      link: "http://www.uniquehelp247.com"
+    - title: "Music Downloader"
+      image: "music_downloader.png"
+      languages: "Python"
       description: |
         Music Downloader is a music scrapper that scraps off new songs of your favourite musicians from websites as soon as the song drops on their platform.
-      link: 'https://github.com/The-Professor99/Music_Downloader'
-    - title: 'Weather App'
-      image: 'weather_app.png'
-      languages: 'HTML, CSS, JS, Firebase'
+      link: "https://github.com/The-Professor99/Music_Downloader"
+    - title: "Weather App"
+      image: "weather_app.png"
+      languages: "HTML, CSS, JS, Firebase"
       description: |
         A PWA project I worked on while in the Google Africa
         Developer Scholarship 2020 (GADS2020) Program. It serves to return weather data in real time.
-      link: 'https://weather-app-bd081.web.app/'
+      link: "https://weather-app-bd081.web.app/"
 
   # Blog section
   blog:
-    - title: 'Amazing article from me to you'
-      image: 'blog1.jpg'
-      time: '2nd &middot; January &middot; 2021'
-      link: '/blog.html'
+    - title: "Amazing article from me to you"
+      image: "blog1.jpg"
+      time: "2nd &middot; January &middot; 2021"
+      link: "/blog.html"
 
-    - title: 'Amazing article from me to you'
-      image: 'blog2.jpg'
-      time: '2nd &middot; January &middot; 2021'
-      link: '/blog.html'
+    - title: "Amazing article from me to you"
+      image: "blog2.jpg"
+      time: "2nd &middot; January &middot; 2021"
+      link: "/blog.html"
 
-    - title: 'Amazing article from me to you'
-      image: 'blog3.jpg'
-      time: '2nd &middot; January &middot; 2021'
-      link: '/blog.html'
+    - title: "Amazing article from me to you"
+      image: "blog3.jpg"
+      time: "2nd &middot; January &middot; 2021"
+      link: "/blog.html"
