@@ -151,8 +151,9 @@ author:
       image: "unique_help.png"
       languages: "TypeScript - Angular, CSS - Tailwindcss"
       description: |
-        Built the front end of the website for Unique Help Global Concept, A world class and people oriented investment company aimed at bridging the financial gap between the upper and lower class.
-      link: "http://www.uniquehelp247.com"
+        I built the front end of the website for Unique Help Global Concept Limited, an investment company. The website is currently unavailable, but proof of completed work can be provided upon request.
+      link: "#"
+      # https://www.uniquehelp247.com
     - title: "Music Downloader"
       image: "music_downloader.png"
       languages: "Python"
