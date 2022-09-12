@@ -133,20 +133,36 @@ author:
     - category: "Testing"
       set: "Jest, React Testing Library, Cypress, Cucumber"
     - category: "Others"
-      set: "Bash/Linux, Git and GitHub, Test Driven Development, Kanban"
+      set: "Bash/Linux, Git and GitHub, Test Driven Development, Kanban, Firebase"
     - category: "Currently Learning"
-      set: "UI/UX Design, Agile Methodologies, Data Structures and Algorithms"
+      set: "Data Structures and Algorithms, UI/UX Design, Agile Methodologies"
     - category: ""
-      set: "*Other skills are included in the Resume"
+      set: "*Other skills are included in my Resume"
 
   # Projects section
   projects:
+    - title: "Syftset Technologies Website"
+      image: "syftset_landing_page.png"
+      languages: "Javascript, React, Redux, Python, Flask, Flask-SocketIO, Socket.io, Firebase, MaterialUI"
+      description: |
+        A cryptocurrency price predictions platform that I am
+        currently building. The predictions engine is being built
+        using Python and served using Flask. Flask-socketIO and
+        socket.io are being used to set up a WebSocket connection which enables real-time communication between the server
+        and the client app. Firebase services such as
+        authentication, firestore, cloud messaging(for push
+        notifications) and analytics are also being used. While most
+        of the website's features can only be accessed by logging in
+        with a real account, you can still access some of them by
+        selecting the "Login without an account" option on the Login
+        page.
+      link: "https://syftset.com?utm_source=portfolio_site&utm_medium=project_include"
     - title: "Ecommerce Practice"
       image: "ecommerce_practice.png"
       languages: "JavaScript - React, CSS - Bootstrap, Webpack"
       description: |
         Built this practice website as a test practice to learning the React framework, It's still a work in progress as some features are yet to be added and some modifications made to the design. You can check more about this project on my github repo.
-      link: "http://ecommerce-practice-99.netlify.app/"
+      link: "https://ecommerce-practice-99.netlify.app/"
     - title: "Unique Help Website"
       image: "unique_help.png"
       languages: "TypeScript - Angular, CSS - Tailwindcss"

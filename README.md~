@@ -17,7 +17,7 @@ Install all the `npm` dependencies
 
 > Make sure you have `gulp cli` installed globally `npm i -g gulp-cli`
 
-| Command          | Action                                                           |
+| Comand          | Action                                                           |
 | --------------- | ---------------------------------------------------------------- |
 | `gulp pages`    | Generates all pages based on `gulp-panini` package               |
 | `gulp style`    | Compiles all your `scss` files to `css` and minifies them        |
