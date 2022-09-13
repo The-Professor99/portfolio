@@ -91,6 +91,10 @@
             line-height: 1.5em;
             height: 40%;
             overflow-y: scroll;
+            text-align: left;
+            *:not(p) {
+              padding-left: 1rem;
+            }
           }
 
           .action {
