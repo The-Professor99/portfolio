@@ -1,0 +1,2 @@
+"serviceWorker"in navigator&&navigator.serviceWorker.register("./sw.js").then((e=>{e.onupdatefound=()=>{const r=e.installing;null!=r&&(r.onstatechange=()=>{"installed"===r.state&&(navigator.serviceWorker.controller?alert("Please close any open tabs of this website on this device and open them again. To receive a new update, this action is required."):console.log("Content is cached for offline use."))})}})).catch((e=>{console.error("Error during service worker registration:",e)}));
+//# sourceMappingURL=../sourcmaps/js/app-2d1f25ca.js.map
