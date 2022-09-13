@@ -18,7 +18,7 @@ const assets = [
   '/fonts/Philosopher-Regular.ttf',
 
   '/css/style-1a8dcec9.css',
-  '/js/app-9175f80f.js',
+  '/js/app-2d1f25ca.js',
   '/js/main-c2c17d7d.js',
   '/js/modules/ui-f4a83908.js',
   'https://kit.fontawesome.com/885fbd8d84.js'
