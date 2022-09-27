@@ -129,7 +129,7 @@ author:
     - category: "Front End Frameworks"
       set: "Angular, React/Redux, Tailwindcss, Bootstrap, MaterialUI"
     - category: "Machine Learning"
-      set: "Python"
+      set: "Python, OpenCV, Scikit-Learn, PyQt"
     - category: "Testing"
       set: "Jest, React Testing Library, Cypress, Cucumber"
     - category: "Others"
