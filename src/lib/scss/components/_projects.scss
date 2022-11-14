@@ -54,7 +54,7 @@
           transition: all 0.3s ease-in-out;
 
           @include themify() {
-            background: transparentize(themed("primary"), 0.2);
+            background: transparentize(themed("primary"), 0.1);
           }
 
           &:hover {

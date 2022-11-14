@@ -141,6 +141,13 @@ author:
 
   # Projects section
   projects:
+    - title: "Yivera - Music distribution platform"
+      image: "yivera.png"
+      languages: "JavaScript - React, CSS - Bootstrap, Redux, Flutterwave"
+      description: |
+        Took part in the front end build of the website for GotRight Technologies, a music distribution company.
+        I was largely responsible for implementing the website's functionalities, these include account registration, login, and recovery, music release, artist and label management, admin functionalities, and other features in between.
+      link: "https://www.yivera.com"
     - title: "Syftset Technologies Website"
       image: "syftset_landing_page.png"
       languages: "Javascript, React, Redux, Python, Flask, Flask-SocketIO, Socket.io, Firebase, MaterialUI"
