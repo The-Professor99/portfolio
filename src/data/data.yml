@@ -143,14 +143,14 @@ author:
   projects:
     - title: "Yivera - Music distribution platform"
       image: "yivera.png"
-      languages: "JavaScript - React, CSS - Bootstrap, Redux, Flutterwave"
+      languages: "JavaScript - React, CSS - Bootstrap, Redux, Flutterwave, Postman API"
       description: |
         Took part in the front end build of the website for GotRight Technologies, a music distribution company.
         I was largely responsible for implementing the website's functionalities, these include account registration, login, and recovery, music release, artist and label management, admin functionalities, and other features in between.
       link: "https://www.yivera.com"
     - title: "Syftset Technologies Website"
       image: "syftset_landing_page.png"
-      languages: "Javascript, React, Redux, Python, Flask, Flask-SocketIO, Socket.io, Firebase, MaterialUI"
+      languages: "Javascript, React, Redux, Socket.io, Firebase, MaterialUI, SCSS, Python, Flask, Flask-SocketIO, PostgreSQL, Google Analytics, NumPy, Pandas, Scikit-Learn, Web Content Writing"
       description: |
         A cryptocurrency price predictions platform that I am
         currently building. While most
@@ -180,6 +180,18 @@ author:
         notifications) and analytics are also being used. 
         </p>
       link: "https://syftset.com?utm_source=portfolio_site&utm_medium=project_include"
+    - title: "Test Project - React 1"
+      image: "lendsqr.png"
+      languages: "React, Typescript, Redux, RxJs, MaterialUI"
+      description: |
+        A test project I was required to complete in 7days as part of an interview process. It served to test my React (Front End) skills.
+      link: "https://github.com/The-Professor99/lendsqr-fe-test"
+    - title: "Test Project - Angular 1"
+      image: "ehr.png"
+      languages: "Angular, Typescript, RxJS, Angular Material UI, NGRX, Javascript, JSON-Server, FakerJS"
+      description: |
+        A test project I was required to complete in 3days as part of an interview process. It served to test my Angular (Front End) skills.
+      link: "https://github.com/The-Professor99/Angular-test"
     - title: "Ecommerce Practice"
       image: "ecommerce_practice.png"
       languages: "JavaScript - React, CSS - Bootstrap, Webpack"
@@ -196,9 +208,9 @@ author:
       link: "https://github.com/The-Professor99/CAMSyFReT"
     - title: "Unique Help Website"
       image: "unique_help.png"
-      languages: "TypeScript - Angular, CSS - Tailwindcss"
+      languages: "TypeScript - Angular2, CSS - Tailwindcss, Google Analytics, Postman API, RxJS, Figma"
       description: |
-        I built the front end of the website for Unique Help Global Concept Limited, an investment company. The website is currently unavailable, but proof of completed work can be provided upon request.
+        I built the front end of the website for Unique Help Global Concept Limited, an investment company. These included all users' and administrators' pages and their functionalities. The website is currently unavailable, but proof of completed work can be provided upon request.
       link: "#"
       # https://www.uniquehelp247.com
     - title: "Music Downloader"
